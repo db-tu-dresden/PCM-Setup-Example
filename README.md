@@ -1,5 +1,11 @@
 # PCM-Setup-Example
 
+## Compile PCM
+
+Build the resources in the `thridParty/pcm` directory according to the repository's README. Ensure a file named 
+'libpcm.so' can be found `thirdParty/pcm/build/lib`. Otherwise, the linker information in the CMakeLists.txt needs to 
+be adjusted.
+
 ## Compile the PCM-Benchmark
 
 First, make sure that you have cmake 3.10 (or newer) installed on your system and configure the CMakeLists.txt to meet 
